@@ -1,0 +1,27 @@
+.typograph-form {
+  display: flex;
+}
+
+.typograph-form_col {
+  flex-basis: 100%;
+}
+
+.typograph-form_area {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  font-size: 20px;
+  line-height: 1.6;
+  background: #FFF;
+  padding: 20px;
+  height: 100vh;
+  border: none;
+  width: 100%;
+}
+
+.typograph-form_area:focus {
+  outline: none;
+}
+
+.typograph-form_output {
+  border-left: 1px solid #555;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pypograph</title>
+  <link rel="stylesheet" href="/static/reset.css">
+  <link rel="stylesheet" href="/static/index.css">
+</head>
+<body>
+
+  <div class="container">
+    <form class="typograph-form" action="/process" method="post">
+      <div class="typograph-form_col">
+        <textarea class="typograph-form_area typograph-form_input" name="text" placeholder="Пишите здесь"></textarea>
+      </div>
+      <div class="typograph-form_col">
+        <textarea class="typograph-form_area typograph-form_output" placeholder="Здесь получите результат"></textarea>
+      </div>
+    </form>
+  </div>
+
+  <script src="//yastatic.net/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//yastatic.net/lodash/2.4.1/lodash.min.js"></script>
+  <script src="/static/index.js"></script>
+</body>
+</html>
