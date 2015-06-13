@@ -1,8 +1,8 @@
 from bottle import request, get, post, view, redirect
-from pypograph import Typograph, rules
+from pypograph import Typograph
 import os
 
-typograph = Typograph([rules.NbspRule, rules.DashRule, rules.QuoteRule, rules.PunctuationRule])
+typograph = Typograph()
 BASE_DIR = os.path.dirname(__file__)
 
 
